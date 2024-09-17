@@ -51,11 +51,14 @@ function Login() {
 
   return (
     <div>
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+      <div className="text-center text-blue-600 text-md mb-6">
+                <p><strong>👋 Hello!</strong></p>
+            </div>
         <div className="w-full max-w-md bg-white shadow-md rounded-lg p-8">
           <form onSubmit={handleLogin}>
             <div className="font-semibold text-xl items-center text-center">
-              Cilli<span className="text-blue-500">Blog</span>
+              Ink <span className="text-blue-500">Blog</span>
             </div>
             <h1 className="text-xl font-semibold mb-6">Login</h1>
             <select
@@ -101,8 +104,12 @@ function Login() {
               Login
             </button>
           </form>
+            <div className="text-center text-blue-600 text-sm mt-10">
+                <p><strong>⚠️ copyrights @Nikhil Yadav</strong></p>
+            </div>
         </div>
       </div>
+
     </div>
   );
 }
