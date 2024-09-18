@@ -8,9 +8,9 @@ function Blogs() {
   console.log(blogs);
   return (
     <div>
-      <div className="container mx-auto my-12 p-4">
-        <h1 className="text-2xl font-bold mb-6">All Blogs goes here!!!</h1>
-        <p className="text-center mb-8">
+      <div className="container bg-white  mx-auto my-10 p-8 shadow-sm">
+        <h1 className="text-2xl  font-bold mb-6 text-blue-500">Blogs collection </h1>
+        <p className="text-center text-slate-500 mb-8">
           The concept of gods varies widely across different cultures,
           religions, and belief systems
         </p>

@@ -59,12 +59,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Appsmith
+                  Fundwise vs Appsmith
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs FlutterFlow
+                  Open AI vs Grok 
                 </a>
               </li>
               <li>
@@ -80,7 +80,7 @@ const Footer = () => {
 
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  DhiWise vs Bubble
+                  Dribble vs Behance
                 </a>
               </li>
               <li>
@@ -124,20 +124,20 @@ const Footer = () => {
       </footer>
       <div className=" container mx-auto  flex flex-col md:flex-row justify-between items-center">
         <div className="text-xl font-semibold hidden md:flex">
-          Cilli<span className="text-blue-500 font-bold">Blog</span>
+        🖊️Ink<span className="text-blue-500 font-bold"> Blog</span>
         </div>
         <div className="text-gray-400 text-sm hidden md:flex">
-          <p>&copy; 2024 DhiWise PVT. LTD. All rights reserved</p>
+          <p>&copy; 2024 Nikhil Yadav. All rights reserved</p>
         </div>
         <div className="mt-4 md:mt-0 flex space-x-4">
-          <a href="#">
+          <a href="https://github.com/MrNikhillyadav">
             <FaGithub className="h-6" />
           </a>
-          <a href="#">
+          <a href="https://github.com/MrNikhillyadav">
             <BsYoutube className="h-6" />
           </a>
 
-          <a href="#">
+          <a href="https://github.com/MrNikhillyadav">
             <FaLinkedin className="h-6" />
           </a>
         </div>

@@ -32,12 +32,12 @@ function App() {
         <Route
           exact
           path="/"
-          element={token ? <Home /> : <Navigate to={"/login"} />}
+          element={token ? <Home /> : <Navigate to={"/blogs"} />}
         />
         <Route exact path="/blogs" element={<Blogs />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/creators" element={<Creators />} />
+        {/* <Route exact path="/creators" element={<Creators />} /> */}
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/dashboard" element={<Dashboard />} />

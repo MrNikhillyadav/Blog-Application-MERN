@@ -28,7 +28,7 @@ function Contact() {
   };
   return (
     <div>
-      <div className="bg-gray-50 min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gray-50 min-h-screen flex items-center justify-center py-5 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl w-full space-y-8 bg-white p-10 rounded-lg shadow-lg">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900">
@@ -99,15 +99,15 @@ function Contact() {
               <ul className="space-y-4">
                 <li className="flex items-center space-x-2">
                   <FaPhone className="text-red-500" />
-                  <span>+91 9876543210</span>
+                  <span>+91 8810**819*</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaEnvelope className="text-pink-500" />
-                  <span>help@learncoding.com</span>
+                  <span>help@inkblog.com</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaMapMarkerAlt className="text-green-500" />
-                  <span>Delhi, NCR, India</span>
+                  <span>Gurugram,India</span>
                 </li>
               </ul>
             </div>

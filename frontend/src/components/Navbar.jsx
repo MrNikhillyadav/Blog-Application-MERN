@@ -36,7 +36,7 @@ function Navbar() {
       <nav className=" shadow-lg px-4 py-2">
         <div className="flex items-center justify-between container mx-auto">
           <div className="font-semibold text-xl">
-            Cilli<span className="text-blue-500">Blog</span>
+          🖊️Ink <span className="text-blue-500">Blog </span>
           </div>
           {/* Desktop */}
           <div className=" mx-6">
@@ -47,9 +47,9 @@ function Navbar() {
               <Link to="/blogs" className="hover:text-blue-500">
                 BLOGS
               </Link>
-              <Link to="/creators" className="hover:text-blue-500">
+              {/* <Link to="/creators" className="hover:text-blue-500">
                 CREATORS
-              </Link>
+              </Link> */}
               <Link to="/about" className="hover:text-blue-500">
                 ABOUT
               </Link>
