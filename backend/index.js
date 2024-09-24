@@ -12,9 +12,15 @@ const app = express();
 dotenv.config();
 
 const port = process.env.PORT;
-const MONOGO_URL = process.env.MONOG_URI;
+// const MONOGO_URL = process.env.MONOG_URI;
 
 // console.log(MONOGO_URL)
+
+mongoose
+  .connect("mongodb://127.0.0.1:27017/blog-app")
+  .then(() => console.log("Db connected"))
+  .catch((err) => console.log("Mongo error", err));
+
 
 //middleware
 app.use(express.json());
@@ -35,12 +41,12 @@ app.use(
 );
 
 // DB Code
-try {
-  mongoose.connect(MONOGO_URL);
-  console.log("Conntected to MonogDB");
-} catch (error) {
-  console.log(error);
-}
+// try {
+//   mongoose.connect(MONOGO_URL);
+//   console.log("Conntected to MonogDB");
+// } catch (error) {
+//   console.log(error);
+// }
 
 // defining routes
 app.use("/api/users", userRoute);

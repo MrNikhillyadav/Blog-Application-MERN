@@ -32,7 +32,7 @@ function App() {
         <Route
           exact
           path="/"
-          element={token ? <Home /> : <Navigate to={"/blogs"} />}
+          element={token ? <Home /> : <Navigate to={"/"} />}
         />
         <Route exact path="/blogs" element={<Blogs />} />
         <Route exact path="/about" element={<About />} />
